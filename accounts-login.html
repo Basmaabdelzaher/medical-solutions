@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Medical Solutions</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/Group 2294.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-datepicker3.css" />
+    <link id="cssFile" rel="stylesheet" href="./css/css-ar.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row first-navbar justify-content-around align-items-center px-0 px-lg-5">
+            <div class="col-md-4 h-100 d-none d-md-flex p-0">
+                <ul class="list-group list-group-horizontal justify-content-start h-100 px-0">
+                    <li class="list-group-item">
+                        <a href="#" class="navbar-icon-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item px-2">
+                        <div class="vertical"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="navbar-icon-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item px-2">
+                        <div class="vertical"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="navbar-icon-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item px-2">
+                        <div class="vertical"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="navbar-icon-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-8 h-100 p-0">
+                <ul class="list-group list-group-horizontal justify-content-end h-100 px-0">
+                    <li class="list-group-item">info@matajer.sa<i class="fas fa-envelope px-0 px-md-2"></i></li>
+                    <li class="list-group-item px-2">
+                        <div class="vertical"></div>
+                    </li>
+                    <li class="list-group-item">19720<i class="fas fa-phone-alt px-0 px-md-2"></i></li>
+                    <li id="language-container" class="list-group-item">
+                        <button id="language" onclick="window.location.href='./coming-soon.html'">English</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div
+                class="col-lg-6 full-page less-section-padding d-flex flex-column justify-content-center align-items-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 d-none d-md-flex align-items-center justify-content-center my-2 my-md-0">
+                        <h1 class="font-weight-bold primary-color text-center">
+                            مرحبا بك في
+                        </h1>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/Group 2294.svg" alt="logo" class="wide-img">
+                    </div>
+                </div>
+                <form class="needs-validation pt-4 w-100" novalidate>
+                    <div id="dangerAlert" class="alert alert-danger alert-dismissible fade show">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>تنبيه!</strong> كلمة السر لا تتوافق مع اسم المستخدم
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="email" class="form-control" placeholder="الايميل" required
+                            pattern="([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$">
+                        <div class="invalid-feedback">
+                            <h6>برجاء ادخال ايميل صحيح</h6>
+                        </div>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="password" class="form-control" placeholder="الرقم السري" required>
+                        <div class="invalid-feedback">
+                            <h6>برجاء ادخال الرقم السري</h6>
+                        </div>
+                    </div>
+                    <a href="#" class="normal-link">نسيت كلمة السر؟</a>
+                    <button class="btn main-btn btn-block mt-2" onclick="showAlert()">دخول</button>
+
+                    <h6 class="text-center my-2">
+                        ليس لدي حساب
+                        <a href="#" class="accent-link">انشئ حساب</a>
+                    </h6>
+
+                    <div class="divider-with-word mt-2">
+                        <label class="px-5">أو</label>
+                    </div>
+
+                    <button type="button" class="btn flat-btn btn-block mt-2">
+                        Continue with Google
+                        <img src="./assets/images/google@2x.png" class="width-img google-img align-top mx-1"
+                            alt="google">
+                    </button>
+                    <button type="button" class="btn flat-btn btn-block mt-2 mb-5 mb-lg-2">
+                        Continue with Facebook
+                        <img src="./assets/images/facebook(1)@2x.png" class="width-img facebook-img align-top mx-1"
+                            alt="facebook">
+                    </button>
+
+                    <div class="drag-bottom">
+                        <p class="text-center mb-2">
+                            كافة الحقوق محفوظة © 2021
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+            <div
+                class="col-lg-6 account-side-overlay dark-overlay d-none d-lg-flex flex-column justify-content-center align-items-center">
+                <img src="./assets/images/Group 2293.svg" alt="logo" class="wide-img intro-logo">
+                <div class="drag-bottom">
+                    <p class="text-light text-center mb-2">
+                        يمكنك الاشتراك معنا و تكون من الاطقم الطبية
+                        <a href="#" class="accent-link px-1">شاركنا كطبيب</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript Files -->
+    <!-- Bootstrap 4 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+    <!-- Date -->
+    <script src="./js/bootstrap-datepicker.min.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/d0113e8031.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

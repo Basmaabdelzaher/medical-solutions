@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Medical Solutions</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/Group 2294.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-datepicker3.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link id="cssFile" rel="stylesheet" href="./css/css-ar.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="
+          row
+          first-navbar
+          justify-content-around
+          align-items-center
+          px-0 px-lg-5
+        ">
+      <div class="col-md-4 h-100 d-none d-md-flex p-0">
+        <ul class="
+              list-group list-group-horizontal
+              justify-content-start
+              h-100
+              px-0
+            ">
+          <li class="list-group-item">
+            <a href="#" class="navbar-icon-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-group-item px-2">
+            <div class="vertical"></div>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="navbar-icon-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-group-item px-2">
+            <div class="vertical"></div>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="navbar-icon-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-group-item px-2">
+            <div class="vertical"></div>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="navbar-icon-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-8 h-100 p-0">
+        <ul class="
+              list-group list-group-horizontal
+              justify-content-end
+              h-100
+              px-0
+            ">
+          <li class="list-group-item">
+            info@matajer.sa<i class="fas fa-envelope px-0 px-md-2"></i>
+          </li>
+          <li class="list-group-item px-2">
+            <div class="vertical"></div>
+          </li>
+          <li class="list-group-item">
+            19720<i class="fas fa-phone-alt px-0 px-md-2"></i>
+          </li>
+          <li id="language-container" class="list-group-item">
+            <button id="language" onclick="window.location.href='./coming-soon.html'">English</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row sticky-top bottom-shadow">
+      <div class="col-12 p-0">
+        <nav class="navbar second-navbar navbar-light navbar-expand-lg">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/Group 660.svg" alt="Logo" class="wide-img" style="width: 100px" />
+          </a>
+
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto p-0">
+              <!-- <li class="nav-item">
+                  <button class="nav-link btn light-btn px-4 pb-2">
+                    <i class="far fa-user mx-1 highlight"></i>
+                    دخول
+                  </button>
+                </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item px-4">
+                <div class="vertical"></div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle user-dropdown d-inline-block" href="#" id="userdrop"
+                  data-toggle="dropdown">
+                  <img src="./assets/images/9f2dc65f7d5f63c5675231be2b5e53c4.png" alt="user" class="mx-2">
+                  أحمد الجندي
+                  <i class="fas fa-chevron-down highlight px-2"></i>
+                </a>
+                <div class="dropdown-menu text-right">
+                  <a class="dropdown-item py-2 font-weight-bold lead" href="#">item 1</a>
+                  <a class="dropdown-item py-2 font-weight-bold lead" href="#">item 2</a>
+                  <a class="dropdown-item py-2 font-weight-bold lead" href="#">item 3</a>
+                </div>
+              </li>
+              <li class="nav-item px-4">
+                <div class="vertical"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">جلدية</a>
+              </li>
+              <li class="nav-item px-4">
+                <div class="vertical"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">صحة ورشاقة ورجيم</a>
+              </li>
+              <li class="nav-item px-4">
+                <div class="vertical"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">عناية بالبشرة</a>
+              </li>
+              <li class="nav-item px-4">
+                <div class="vertical"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">عناية بالشعر</a>
+              </li>
+              <li class="nav-item px-4">
+                <div class="vertical"></div>
+              </li>
+              <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">خدمات عامة</a>
+                      </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  خدمات عامة
+                  <i class="fas fa-chevron-down highlight px-2"></i>
+                </a>
+                <div class="dropdown-menu text-right">
+                  <a class="dropdown-item py-2 font-weight-bold" href="#">اغذية صحية</a>
+                  <a class="dropdown-item py-2 font-weight-bold" href="#">مقالات عن الامراض المزمنة</a>
+                  <a class="dropdown-item py-2 font-weight-bold" href="#">اخبار طبية</a>
+                  <a class="dropdown-item py-2 font-weight-bold" href="#">اسئلة طبية شائعة</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+      <div class="title-banner col-12 section-padding white-color">
+        <h2 class="font-weight-bold side-border mb-0 px-4 py-2">
+          <img src="./assets/images/user(5).png" alt="title-icon" class="wide-img title-icon px-1 mb-2" />
+          الملف الشخصي
+        </h2>
+      </div>
+    </div>
+    <div class="row section-padding gray-bg">
+      <div class="col-lg-4 mb-4">
+        <div class="card my-box-shadow pt-4 pb-3">
+          <div class="card-body text-center">
+            <img src="./assets/images/9f2dc65f7d5f63c5675231be2b5e53c4.png" class="width-img" />
+            <h5 class="font-weight-bold mt-3 mb-2">أحمد الجندي</h5>
+            <h6>ID:#564534</h6>
+            <div class="text-right">
+              <a href="#" class="
+                    normal-link
+                    no-underline
+                    px-2
+                    py-3
+                    d-flex
+                    justify-content-between
+                    align-items-baseline
+                    my-2
+                    bottom-shadow
+                  ">
+                تعديل بيانات
+                <i class="fas fa-chevron-left"></i>
+              </a>
+              <a href="#" class="
+                    normal-link
+                    no-underline
+                    px-2
+                    d-flex
+                    justify-content-between
+                    align-items-baseline
+                  ">
+                الرقم السري
+                <i class="fas fa-chevron-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="bg-white light-border px-3 py-4">
+          <h5 class="font-weight-bold my-3 mb-2 side-border px-3 mx-0">
+            معلومات عامة
+          </h5>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="
+                    user-info-card
+                    p-2
+                    my-2
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-around
+                  ">
+                <div>
+                  <img src="./assets/images/profile-icon/weight-scale(1).png" alt="" />
+                  <p class="font-weight-bold">الوزن ( كيلو جرام )</p>
+                </div>
+                <h5 class="highlight font-weight-bold">99</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="
+                    user-info-card
+                    p-2
+                    my-2
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-around
+                  ">
+                <div>
+                  <img src="./assets/images/profile-icon/height.png" alt="" />
+                  <p class="font-weight-bold">الطول ( سنتيميتر )</p>
+                </div>
+                <h5 class="highlight font-weight-bold">199</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="
+                    user-info-card
+                    p-2
+                    my-2
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-around
+                  ">
+                <div>
+                  <img src="./assets/images/profile-icon/XMLID_518_.png" alt="" />
+                  <p class="font-weight-bold">السن</p>
+                </div>
+                <h5 class="highlight font-weight-bold">99</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="
+                    user-info-card
+                    p-2
+                    my-2
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-around
+                  ">
+                <div>
+                  <img src="./assets/images/profile-icon/sex.png" alt="" />
+                  <p class="font-weight-bold">الجنس</p>
+                </div>
+                <h5 class="highlight font-weight-bold">رجل</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="
+                    user-info-card
+                    p-2
+                    my-2
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-around
+                  ">
+                <div>
+                  <img src="./assets/images/profile-icon/open-hands.png" alt="" />
+                  <p class="font-weight-bold">نوع البشرة</p>
+                </div>
+                <h5 class="highlight font-weight-bold">جافة</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="
+                    user-info-card
+                    p-2
+                    my-2
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-around
+                  ">
+                <div>
+                  <img src="./assets/images/profile-icon/hairdresser(1).png" alt="" />
+                  <p class="font-weight-bold">نوع الشعر</p>
+                </div>
+                <h5 class="highlight font-weight-bold">جافة</h5>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div class="form-group">
+                <label>الاسم</label>
+                <input class="form-control" value="أحمد نبيل الجندي" readonly />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>الايميال</label>
+                <input class="form-control" value="ahmed.nabil.elgendy@gmail.com" readonly />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>تاريخ الميلاد</label>
+                <input class="form-control" value="14/12/1991" readonly />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>المحافظة</label>
+                <input class="form-control" value="القاهرة" readonly />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>المدينة</label>
+                <input class="form-control" value="القاهرة" readonly />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>الموبايل 1</label>
+                <input class="form-control" value="01002068447" readonly />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>الموبايل 2</label>
+                <input class="form-control" value="01002068447" readonly />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <label>العنوان</label>
+                <input class="form-control" value="مدينة نصر عمارات مدينة نصر الجديدة" readonly />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- No Chronic Diseases -->
+        <div class="light-border bg-white px-3 py-4 my-4">
+          <h5 class="font-weight-bold my-3 mb-2 side-border px-3 mx-0">
+            الأمراض المزمنة
+          </h5>
+          <div class="section-padding text-center">
+            <img src="./assets/images/No data-pana.png" alt="no-chronic" class="w-50 wide-img mx-auto mb-4" />
+            <h6 class="font-weight-bold mb-5">لا توجد امراض مزمنة</h6>
+            <button class="btn main-btn btn-block mb-4 mt-4">أضف</button>
+          </div>
+        </div>
+        <!-- End of No Chronic Diseases -->
+        <div class="px-3 py-4 light-border bg-white my-4">
+          <h5 class="font-weight-bold side-border px-3 mx-0">
+            الأمراض المزمنة
+          </h5>
+          <form class="px-3">
+            <div class="row mt-2">
+              <div class="col-6">
+                <h6 class="highlight mb-0">المرض الأول</h6>
+              </div>
+              <div class="col-6 text-left">
+                <button type="button" class="btn light-btn px-2 mb-2 edit-chronic-btn small"
+                  onclick="editChronicDisease(this)">
+                  <i class="fas fa-pencil-alt mx-1 highlight"></i>
+                  تعديل
+                </button>
+                <button type="button" class="btn light-btn px-2 mb-2 save-chronic-btn small"
+                  onclick="saveChronicDisease(this)">
+                  <i class="far fa-check-circle  mx-1 highlight"></i>
+                  حفظ
+                </button>
+              </div>
+            </div>
+            <div class="row bottom-shadow pb-3">
+              <div class="col-12 px-2">
+                <div class="form-group">
+                  <label class="mb-3">اسم المرض</label>
+                  <!-- <input type="text" class="form-control chronic1" readonly value="مرض السكر نوع الاول" /> -->
+                  <select class="form-control searchable-select chronic1" data-live-search="true"
+                    title="مرض السكر النوع الاول" disabled>
+                    <option value="">مرض السكر النوع الاول</option>
+                    <option value="">مرض السكر النوع الثاني</option>
+                    <option value="">مرض الضغط</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Medicine Table -->
+              <div class="col-12 table-responsive p-0">
+                <table id="chronic1" class="table table-borderless medicine-table">
+                  <colgroup>
+                    <col style="width: 30%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 10%;" />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>اسم الدواء</th>
+                      <th>الجرعات</th>
+                      <th>في</th>
+                      <th>الميعاد</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        دواء 1
+                      </td>
+                      <td>
+                        2
+                      </td>
+                      <td>
+                        في اليوم
+                      </td>
+                      <td>
+                        13:30
+                      </td>
+                      <td>
+                        <button type="button" class="btn p-0" onclick="removeRow(this)">
+                          <i class="fas fa-times text-danger"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        دواء 2
+                      </td>
+                      <td>
+                        4
+                      </td>
+                      <td>
+                        في الاسبوع
+                      </td>
+                      <td>
+                        05:15
+                      </td>
+                      <td>
+                        <button type="button" class="btn p-0" onclick="removeRow(this)">
+                          <i class="fas fa-times text-danger"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- The Table TO ADD A NEW MEDICINE -->
+                <table class="table table-borderless new-medicine-table vanish">
+                  <colgroup>
+                    <col style="width: 30%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 10%;" />
+                  </colgroup>
+                  <tr>
+                    <td>
+                      <select id="newMedicineName" class="form-control searchable-select" data-live-search="true">
+                        <option value="دواء 1">دواء 1</option>
+                        <option value="دواء 2">دواء 2</option>
+                        <option value="دواء 3">دواء 3</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input id="newMedicinePortion" type="number" min="0" oninput="validity.valid||(value='');" class="form-control" value="0"
+                        style="min-width: 50px;" />
+                    </td>
+                    <td>
+                      <select id="newMedicineEvery" class="form-control searchable-select">
+                        <option value="في اليوم">في اليوم</option>
+                        <option value="في الاسبوع">في الاسبوع</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input id="newMedicineTime" type="time" class="form-control" />
+                    </td>
+                    <td>
+                      <button type="button" class="btn p-0 new-med-btn" onclick="addRow(this)">
+                        <i class="fas fa-plus-circle highlight"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!-- -->
+              <div class="col-12 px-2">
+                <div class="form-group">
+                  <label class="mb-3">ملاحظات</label>
+                  <textarea rows="4" class="form-control chronic1 hide-scrollbar" readonly>
+بحقن الأنسولين مع المراقبة المستمرة لمستويات جلوكوز الدم. ويمكن أن يصاب المريض الذي لا يتعاطى الأنسولين بالحماض الكيتوني السكري الذي يؤدي إلى غيبوبة أو الوفاة. ويجب التأكيد على المريض بأن يضبط أسلوب حياته خصوصاً فيما يتعلق بالقوت وتمرينات رياضية على الرغم من أن كل ذلك لا يمكنه أن يعوض خسارة الخلايا بيتا
+                                    </textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-6">
+                <h6 class="highlight mb-0">المرض الثاني</h6>
+              </div>
+              <div class="col-6 text-left">
+                <button type="button" class="btn light-btn px-2 mb-2 edit-chronic-btn small"
+                  onclick="editChronicDisease(this)">
+                  <i class="fas fa-pencil-alt mx-1 highlight"></i>
+                  تعديل
+                </button>
+                <button type="button" class="btn light-btn px-2 mb-2 save-chronic-btn small"
+                  onclick="saveChronicDisease(this)">
+                  <i class="far fa-check-circle  mx-1 highlight"></i>
+                  حفظ
+                </button>
+              </div>
+            </div>
+            <div class="row pb-3">
+              <div class="col-12 px-2">
+                <div class="form-group">
+                  <label class="mb-3">اسم المرض</label>
+                  <!-- <input type="text" class="form-control chronic2" readonly value="مرض السكر نوع الاول" /> -->
+                  <select class="form-control searchable-select chronic2" data-live-search="true"
+                    title="مرض السكر النوع الاول" disabled>
+                    <option value="">مرض السكر النوع الاول</option>
+                    <option value="">مرض السكر النوع الثاني</option>
+                    <option value="">مرض الضغط</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Medicine Table -->
+              <div class="col-12 table-responsive p-0">
+                <table id="chronic2" class="table table-borderless medicine-table">
+                  <colgroup>
+                    <col style="width: 30%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 10%;" />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>اسم الدواء</th>
+                      <th>الجرعات</th>
+                      <th>في</th>
+                      <th>الميعاد</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        دواء 1
+                      </td>
+                      <td>
+                        3
+                      </td>
+                      <td>
+                        في اليوم
+                      </td>
+                      <td>
+                        06:12
+                      </td>
+                      <td>
+                        <button type="button" class="btn p-0" onclick="removeRow(this)">
+                          <i class="fas fa-times text-danger"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        دواء 1
+                      </td>
+                      <td>
+                        1
+                      </td>
+                      <td>
+                        في اليوم
+                      </td>
+                      <td>
+                        07:08
+                      </td>
+                      <td>
+                        <button type="button" class="btn p-0" onclick="removeRow(this)">
+                          <i class="fas fa-times text-danger"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- The Table TO ADD A NEW MEDICINE -->
+                <table class="table table-borderless new-medicine-table vanish">
+                  <colgroup>
+                    <col style="width: 30%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 20%;" />
+                    <col style="width: 10%;" />
+                  </colgroup>
+                  <tr>
+                    <td>
+                      <select id="newMedicineName" class="form-control searchable-select" data-live-search="true">
+                        <option value="دواء 1">دواء 1</option>
+                        <option value="دواء 2">دواء 2</option>
+                        <option value="دواء 3">دواء 3</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input id="newMedicinePortion" type="number" min="0" oninput="validity.valid||(value='');" class="form-control" value="0"
+                        style="min-width: 50px;" />
+                    </td>
+                    <td>
+                      <select id="newMedicineEvery" class="form-control searchable-select">
+                        <option value="في اليوم">في اليوم</option>
+                        <option value="في الاسبوع">في الاسبوع</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input id="newMedicineTime" type="time" class="form-control" />
+                    </td>
+                    <td>
+                      <button type="button" class="btn p-0 new-med-btn" onclick="addRow(this)">
+                        <i class="fas fa-plus-circle highlight"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!-- -->
+              <div class="col-12 px-2">
+                <div class="form-group">
+                  <label class="mb-3">ملاحظات</label>
+                  <textarea rows="4" class="form-control chronic2 hide-scrollbar" readonly>
+بحقن الأنسولين مع المراقبة المستمرة لمستويات جلوكوز الدم. ويمكن أن يصاب المريض الذي لا يتعاطى الأنسولين بالحماض الكيتوني السكري الذي يؤدي إلى غيبوبة أو الوفاة. ويجب التأكيد على المريض بأن يضبط أسلوب حياته خصوصاً فيما يتعلق بالقوت وتمرينات رياضية على الرغم من أن كل ذلك لا يمكنه أن يعوض خسارة الخلايا بيتا
+                                    </textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- ADD NEW CHRONIC PANEL -->
+            <div id="newChronic">
+              <div class="row pb-3 m-0">
+                <div class="col-12">
+                  <h6 class="font-weight-bold highlight">اضف بيانات المرض</h6>
+                  <div class="form-group">
+                    <label class="mb-3">اسم المرض</label>
+                    <select class="form-control searchable-select" data-live-search="true" title="">
+                      <option value="">مرض السكر النوع الاول</option>
+                      <option value="">مرض السكر النوع الثاني</option>
+                      <option value="">مرض الضغط</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12 table-responsive p-0">
+                  <table id="chronicNew" class="table table-borderless medicine-table">
+                    <thead>
+                      <tr>
+                        <th>اسم الدواء</th>
+                        <th>الجرعات</th>
+                        <th>في</th>
+                        <th>الميعاد</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+           
+                    </tbody>
+                  </table>
+
+                  <!-- The Table TO ADD A NEW MEDICINE -->
+                  <table class="table table-borderless new-medicine-table">
+                    <colgroup>
+                      <col style="width: 30%;" />
+                      <col style="width: 20%;" />
+                      <col style="width: 20%;" />
+                      <col style="width: 20%;" />
+                      <col style="width: 10%;" />
+                    </colgroup>
+                    <tr>
+                      <td>
+                        <select id="newMedicineName" class="form-control searchable-select" data-live-search="true">
+                          <option value="دواء 1">دواء 1</option>
+                          <option value="دواء 2">دواء 2</option>
+                          <option value="دواء 3">دواء 3</option>
+                        </select>
+                      </td>
+                      <td>
+                        <input id="newMedicinePortion" type="number" min="0" oninput="validity.valid||(value='');" class="form-control" value="0"
+                          style="min-width: 50px;" />
+                      </td>
+                      <td>
+                        <select id="newMedicineEvery" class="form-control searchable-select">
+                          <option value="في اليوم">في اليوم</option>
+                          <option value="في الاسبوع">في الاسبوع</option>
+                        </select>
+                      </td>
+                      <td>
+                        <input id="newMedicineTime" type="time" class="form-control" />
+                      </td>
+                      <td>
+                        <button type="button" class="btn p-0 new-med-btn" onclick="addRow(this)">
+                          <i class="fas fa-plus-circle highlight"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="col-12 px-2">
+                  <div class="form-group">
+                    <label class="mb-3">ملاحظات</label>
+                    <textarea rows="4" class="form-control hide-scrollbar">
+                        </textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row my-4">
+              <div class="col-12">
+                <button type="button" id="addNewChronicBtn" class="btn main-btn btn-block"
+                  onclick="addNewChronic(this)">
+                  أضف المزيد من الأمراض
+                </button>
+                <button type="button" id="saveNewChronicBtn" class="btn main-btn btn-block"
+                  onclick="saveNewChronic(this)">
+                  حفظ
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="row section-padding py-3 white-color align-items-end">
+      <div class="col-md-5">
+        <img src="./assets/images/Group 660.svg" alt="logo" class="wide-img" style="width: 120px" />
+        <p class="my-2">
+          لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي
+          الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.لوريم
+          إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
+          المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+        </p>
+      </div>
+      <div class="col-md-7">
+        <div class="row align-items-end">
+          <div class="col-md-6 col-lg-3">
+            <a href="#" class="d-block mb-3">من نحن</a>
+            <a href="#" class="d-block mb-3">فريقنا الطبي</a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="#" class="d-block mb-3">انضم الى أطبائنا</a>
+            <a href="#" class="d-block mb-3">وظائف</a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="#" class="d-block mb-3">اتصل بنا</a>
+            <a href="#" class="d-block mb-3">شروط الأستخدام</a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <span class="d-block mb-3">تواصل معنا</span>
+            <a href="#" class="mx-2 lead">
+              <i class="fab fa-instagram mb-3"></i>
+            </a>
+            <a href="#" class="mx-2 lead">
+              <i class="fab fa-twitter mb-3"></i>
+            </a>
+            <a href="#" class="mx-2 lead">
+              <i class="fab fa-facebook-f mb-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center mt-1 pt-1" style="box-shadow: 0 -2px 2px -2px #ccc">
+        <p class="mb-0">كافة الحقوق محفوظة © 2021</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Javascript Files -->
+  <!-- Bootstrap 4 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+  <!-- Date -->
+  <script src="./js/bootstrap-datepicker.min.js"></script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/d0113e8031.js" crossorigin="anonymous"></script>
+  <!-- OwlCarousel -->
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

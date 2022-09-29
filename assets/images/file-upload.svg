@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="file-upload" transform="translate(0.265 0.265)">
+    <g id="Circle_Grid" data-name="Circle Grid" transform="translate(-0.47 -0.47)">
+      <circle id="Ellipse_546" data-name="Ellipse 546" cx="22" cy="22" r="22" transform="translate(0.205 0.205)" fill="#2cbfae"/>
+    </g>
+    <g id="icon" transform="translate(7.008 11.434)">
+      <path id="Path_20544" data-name="Path 20544" d="M50.187,43.748a5.243,5.243,0,0,1-5.245,5.246l-20.2-.109a3.869,3.869,0,1,1-.139-7.737,5.418,5.418,0,0,1,9.925-4.324,4.354,4.354,0,0,1,8.366,1.69c0,.142-.006.282-.02.421.04-.02.08-.036.119-.053a5.24,5.24,0,0,1,7.2,4.866Z" transform="translate(-20.801 -33.784)" fill="#eeefee"/>
+      <path id="Path_20545" data-name="Path 20545" d="M59.353,60.005H56.725v7.09h-4.7v-7.09H49.4l4.978-6.93Z" transform="translate(-39.648 -46.499)" fill="#575b6d"/>
+    </g>
+  </g>
+</svg>
